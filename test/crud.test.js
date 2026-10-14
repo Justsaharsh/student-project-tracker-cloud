@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { createApp } from '../app.js';
+import { createApp } from '../create-app.js';
 
 const projects = new Map();
 let nextId = 1;
