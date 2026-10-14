@@ -1,0 +1,19 @@
+
+{
+  "name": "student-project-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "5.1.0",
+    "pg": "^8.23.1"
+  }
+}
